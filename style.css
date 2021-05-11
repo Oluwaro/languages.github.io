@@ -1,0 +1,79 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+  /* The image used */
+  background-image: url("language.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+i{
+  font-size: 70px;
+  color: rgb(73, 104, 161);
+  padding-left: 5%;
+}
+
+.container{
+  width: 700px;
+  margin: 40px auto;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+.form-check{
+  padding: 8px 30px;
+}
+button{
+  padding: 10px 120px;
+  border-radius: 12px;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+.btn{
+  text-align: center;
+  border-radius: 50px;
+}
+.btn-primary{
+  text-align: center;
+  color: rgb(230, 188, 73);
+}
+.btn-pri{
+  color: lightblue;
+}
+.form-control{
+  border-radius: 50px;
+}
+h6{
+  color: white;
+}
+i h6{
+  background-color:  rgb(250, 184, 146);
+  border-radius: 30px;
+  text-align: center;
+  background-origin: padding-box;
+  padding: 12px 24px 12px 24px;
+}
+.card-foote{
+  width: 170%;
+}
